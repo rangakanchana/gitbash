@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename Java project &apos;AutomationFramework&apos; to &apos;AutomationFrameworkWhiteBox&apos;&#x0D;&#x0A;- Original element: &apos;AutomationFramework&apos;&#x0D;&#x0A;- Renamed element: &apos;AutomationFramework&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename Java project &apos;AutomationFramework&apos;" flags="7" id="org.eclipse.jdt.ui.rename.java.project" input="=AutomationFramework" name="AutomationFrameworkWhiteBox" references="true" stamp="1468437272493" version="1.0"/>
+</session>

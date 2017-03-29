@@ -1,0 +1,27 @@
+package com.main;
+
+public class PtintStars {
+	/*public static void main(String[] args) {
+		int row,numberofstars;
+		for(row=1;row<=5;row++){
+			for(numberofstars=1;numberofstars<=row;numberofstars++){
+				System.out.println("*");
+			}
+			System.out.println();*/
+		public static void main(String[] args) {
+	for(int i =0;i<=5;i++){
+		for(int j=i+1;j>0;j--){
+			System.out.println("*");
+		}
+			
+			System.out.println();
+			
+		}
+		
+		
+		
+		
+		
+	}
+
+}

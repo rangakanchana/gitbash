@@ -1,0 +1,13 @@
+<suite name="Suite">
+  <test name="Test">
+  <groups>
+  <run>
+  <include name = "sanity"/>
+  <include name = "regression"/>
+  </run>
+  </groups>
+    <classes>
+      <class name="com.test.NewTest2"/>
+    </classes>
+  </test> 
+</suite> 

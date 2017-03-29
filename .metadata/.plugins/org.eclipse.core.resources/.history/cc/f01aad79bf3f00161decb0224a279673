@@ -1,0 +1,55 @@
+package com.main;
+
+import org.openqa.selenium.Alert;
+import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.interactions.Actions;
+
+public class APIExamples {
+	
+public static void alertsEx() throws InterruptedException{
+WebDriver driver = new FirefoxDriver();
+driver.get("http://softwaretesting-guru.blogspot.in/p/blog-page.html");
+driver.manage().window().maximize();
+Thread.sleep(3000);
+driver.findElement(By.xpath("html/body/div[3]")).sendKeys(Keys.PAGE_DOWN);
+driver.findElement(By.tagName("input")).click();
+
+Alert alert = driver.switchTo().alert();
+alert.accept();
+}
+public static void actionsEx(){
+	WebDriver driver = new FirefoxDriver();
+	driver.get("http://www.ebay.com/");
+	WebElement element= driver.findElement(By.xpath(".//*[@id='gh-ac']"));
+	Actions action = new Actions(driver);
+	action.moveToElement(element).click()
+	.keyDown(element, Keys.SHIFT)
+	.sendKeys("ipad")
+	.keyUp(element, Keys.SHIFT)
+	.contextClick(element)
+	.doubleClick(element)
+	.build().perform();
+}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+	public static void main(String[] args) throws InterruptedException {
+		//APIExamples.alertsEx();	
+		APIExamples.actionsEx();
+		
+		
+		
+}
+
+}

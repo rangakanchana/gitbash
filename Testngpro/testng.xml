@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name = "Stringop">
+<test name = "String">
+<classes>
+<class name = "com.test.StringOperationTest"></class>
+<class name = "com.test.StringOperationTest1"></class>
+</classes>
+</test>
+</suite>

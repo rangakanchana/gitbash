@@ -1,0 +1,8 @@
+AutoFrameworkWhiteboxQa.outdir=/test-output
+AutoFrameworkWhiteboxQa.useProjectJar=true
+Guru99Banking.outdir=/test-output
+Guru99Banking.useProjectJar=true
+ResumeParser.outdir=/test-output
+TestNg1.absolutepath=true
+TestNg1.useProjectJar=true
+eclipse.preferences.version=1

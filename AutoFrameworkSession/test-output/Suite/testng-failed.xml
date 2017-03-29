@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="HomeTest">
+    <classes>
+      <class name="com.wbl.test.HomePageTest"/>
+    </classes>
+  </test> <!-- HomeTest -->
+  <test name="LoginTest">
+    <classes>
+      <class name="com.wbl.test.LoginPageTest"/>
+    </classes>
+  </test> <!-- LoginTest -->
+  <test name="HomeTest(failed)">
+    <classes>
+      <class name="com.wbl.test.LoginPageTest">
+        <methods>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- com.wbl.test.LoginPageTest -->
+      <class name="com.wbl.test.HomePageTest">
+        <methods>
+          <include name="testVideoPresent"/>
+          <include name="beforeTest"/>
+          <include name="testSliders"/>
+          <include name="testSectionHeaders"/>
+        </methods>
+      </class> <!-- com.wbl.test.HomePageTest -->
+    </classes>
+  </test> <!-- HomeTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->

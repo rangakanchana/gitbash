@@ -1,0 +1,3 @@
+Alert/prompt comes with alert message + some buttons + check box/radio buttons to select.
+Whereas A child window/window popup may contains a form having many WebElements.
+This can be one way to figure out.

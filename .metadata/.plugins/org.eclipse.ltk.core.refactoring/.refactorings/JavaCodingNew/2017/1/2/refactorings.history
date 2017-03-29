@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move &apos;SecondRepeatedChar.java, SecondRepeatedChar1.java, SecondRepeatedChar2.java&apos; to &apos;Strings&apos;" description="Move 3 resources to &apos;Strings&apos;" destination="src/com/Strings" element1="/com.walmart/src/ebay/SecondRepeatedChar.java" element2="/com.walmart/src/ebay/SecondRepeatedChar1.java" element3="/com.walmart/src/ebay/SecondRepeatedChar2.java" flags="7" id="org.eclipse.ltk.core.refactoring.move.resources" resources="3" stamp="1484167858417" updateReferences="true"/>
+</session>

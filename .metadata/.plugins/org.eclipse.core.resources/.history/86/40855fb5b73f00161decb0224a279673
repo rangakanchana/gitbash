@@ -1,0 +1,38 @@
+package com.main;
+
+import org.openqa.selenium.Alert;
+import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+public class APIExamples {
+	
+public static void alertsEx() throws InterruptedException{
+WebDriver driver = new FirefoxDriver();
+driver.get("http://softwaretesting-guru.blogspot.in/p/blog-page.html");
+driver.manage().window().maximize();
+Thread.sleep(3000);
+driver.findElement(By.xpath("html/body/div[3]")).sendKeys(Keys.PAGE_DOWN);
+driver.findElement(By.cssSelector("#sampleform>table>tbody>tr>td>input"));
+
+Alert alert = driver.switchTo().alert();
+alert.accept();
+}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+	public static void main(String[] args) throws InterruptedException {
+		APIExamples.alertsEx();		
+		
+		
+}
+
+}

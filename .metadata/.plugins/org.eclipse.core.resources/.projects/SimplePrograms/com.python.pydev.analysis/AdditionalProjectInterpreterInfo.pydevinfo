@@ -1,0 +1,22 @@
+-- VERSION_4
+-- START DISKCACHE_2
+C:\Users\sridhar\workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\SimplePrograms\com.python.pydev.analysis\v2_indexcache
+programs.additions|1486016026227553000|C:\Users\sridhar\workspace\SimplePrograms\programs\additions.py
+programs.__init__|1486007570270514000|C:\Users\sridhar\workspace\SimplePrograms\programs\__init__.py
+-- END DISKCACHE
+-- START DICTIONARY
+1
+1=programs.additions
+-- END DICTIONARY
+-- START TREE 1
+6
+a|1|a!11@
+b|1|b!11@
+c|1|c!11@
+fir|1|firstname!11@
+ful|1|fullname!11@
+las|1|lastname!11@
+-- END TREE
+-- START TREE 2
+0
+-- END TREE

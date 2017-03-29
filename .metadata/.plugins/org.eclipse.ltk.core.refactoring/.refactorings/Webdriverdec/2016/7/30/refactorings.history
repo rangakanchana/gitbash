@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Webdriverdec/src/com/main/TestEx.java&apos; to &apos;WindowHandlesEx.java&apos;" description="Rename resource &apos;TestEx.java&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/com/main/TestEx.java" name="WindowHandlesEx.java" stamp="1468970267128" updateReferences="true"/>
+</session>

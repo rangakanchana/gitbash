@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;ResumeParser/ResumeTransducer/UnitTests/Kanchana resume.docx&apos; to &apos;Kanchanaresume.docx&apos;" description="Rename resource &apos;Kanchana resume.docx&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="ResumeTransducer/UnitTests/Kanchana resume.docx" name="Kanchanaresume.docx" stamp="1490397001126" updateReferences="true"/>
+</session>

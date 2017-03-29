@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;WebdriverExamples/src/com/ebay/YelpSearch.java&apos; to &apos;TripAdvisor.java&apos;" description="Rename resource &apos;YelpSearch.java&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/com/ebay/YelpSearch.java" name="TripAdvisor.java" stamp="1482374374835" updateReferences="true"/>
+</session>

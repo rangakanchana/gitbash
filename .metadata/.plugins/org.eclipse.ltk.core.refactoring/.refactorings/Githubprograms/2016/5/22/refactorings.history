@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.main.collections.Enum&apos; to &apos;EnumEx&apos;&#x0D;&#x0A;- Original project: &apos;Githubprograms&apos;&#x0D;&#x0A;- Original element: &apos;com.main.collections.Enum&apos;&#x0D;&#x0A;- Renamed element: &apos;com.main.collections.EnumEx&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Enum&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;com.main.collections{Enum.java[Enum" matchStrategy="1" name="EnumEx" qualified="false" references="true" similarDeclarations="false" stamp="1464036221884" textual="false" version="1.0"/>
+</session>

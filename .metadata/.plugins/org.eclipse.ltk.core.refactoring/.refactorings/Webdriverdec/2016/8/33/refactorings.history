@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Webdriverdec/src/com/main/ExcelConfig&apos; to &apos;ExcelConfigLib&apos;" description="Rename resource &apos;ExcelConfig&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/com/main/ExcelConfig" name="ExcelConfigLib" stamp="1470942888773" updateReferences="true"/>
+</session>

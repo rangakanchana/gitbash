@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Automationwhitebox]">
+  <test name="Functional Test(failed)">
+    <classes>
+      <class name="com.test.LoginPageTest">
+        <methods>
+          <include name="testInvalidLogin" invocation-numbers="0 1"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- com.test.LoginPageTest -->
+      <class name="com.test.HomePageTest">
+        <methods>
+          <include name="initialize"/>
+          <include name="testSocialLinks"/>
+          <include name="testLoginLink"/>
+        </methods>
+      </class> <!-- com.test.HomePageTest -->
+    </classes>
+  </test> <!-- Functional Test(failed) -->
+</suite> <!-- Failed suite [Automationwhitebox] -->

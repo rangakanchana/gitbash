@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [wbqaSuite]">
+  <test name="FunctTest">
+    <classes>
+      <class name="com.test.HomePageTest"/>
+    </classes>
+  </test> <!-- FunctTest -->
+  <test name="FunctTest(failed)">
+    <classes>
+      <class name="com.test.HomePageTest">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="testSocialLinks"/>
+          <include name="testLoginLink"/>
+        </methods>
+      </class> <!-- com.test.HomePageTest -->
+    </classes>
+  </test> <!-- FunctTest(failed) -->
+</suite> <!-- Failed suite [wbqaSuite] -->

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="2" failed="0" total="2" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="wbqaSuite" duration-ms="48" started-at="2016-08-22T19:36:05Z" finished-at="2016-08-22T19:36:05Z">
+    <groups>
+    </groups>
+    <test name="FunctTest" duration-ms="48" started-at="2016-08-22T19:36:05Z" finished-at="2016-08-22T19:36:05Z">
+      <class name="com.test.HomePageTest">
+        <test-method status="FAIL" signature="beforeSuite()[pri:0, instance:com.test.HomePageTest@71e7a66b]" name="beforeSuite" is-config="true" duration-ms="0" started-at="2016-08-22T12:36:05Z" finished-at="2016-08-22T12:36:05Z">
+          <exception class="java.lang.NoClassDefFoundError">
+            <message>
+              <![CDATA[org/openqa/selenium/WebDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NoClassDefFoundError: org/openqa/selenium/WebDriver
+	at com.base.BaseTest.beforeSuite(BaseTest.java:23)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:514)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:215)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.WebDriver
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:331)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 19 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NoClassDefFoundError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="SKIP" signature="beforeClass()[pri:0, instance:com.test.HomePageTest@71e7a66b]" name="beforeClass" is-config="true" duration-ms="0" started-at="2016-08-22T12:36:05Z" finished-at="2016-08-22T12:36:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="SKIP" signature="testLoginLink()[pri:0, instance:com.test.HomePageTest@71e7a66b]" name="testLoginLink" duration-ms="0" started-at="2016-08-22T12:36:05Z" finished-at="2016-08-22T12:36:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginLink -->
+        <test-method status="SKIP" signature="testSocialLinks()[pri:0, instance:com.test.HomePageTest@71e7a66b]" name="testSocialLinks" duration-ms="0" started-at="2016-08-22T12:36:05Z" finished-at="2016-08-22T12:36:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSocialLinks -->
+        <test-method status="SKIP" signature="afterSuite()[pri:0, instance:com.test.HomePageTest@71e7a66b]" name="afterSuite" is-config="true" duration-ms="0" started-at="2016-08-22T12:36:05Z" finished-at="2016-08-22T12:36:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.test.HomePageTest -->
+    </test> <!-- FunctTest -->
+  </suite> <!-- wbqaSuite -->
+</testng-results>

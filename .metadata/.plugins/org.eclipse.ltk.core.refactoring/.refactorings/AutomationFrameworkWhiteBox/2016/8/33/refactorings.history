@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;AutomationFrameworkWhiteBox/src/com/util/Configuaration.java&apos; to &apos;Configuration.java&apos;" description="Rename resource &apos;Configuaration.java&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/com/util/Configuaration.java" name="Configuration.java" stamp="1470535148835" updateReferences="true"/>
+</session>
